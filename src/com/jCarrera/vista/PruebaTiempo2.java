@@ -11,12 +11,11 @@ import com.jCarrera.modelo.Tiempo1;
  *
  * @author PC
  */
-public class Aplicacion {
+public class PruebaTiempo2 {
     public static void main(String[] args) {
-        Tiempo1 horas=new Tiempo1();
-        horas.aStringEstandar();
-                horas.aStringUniversal();
-                horas.establecerHora(12, 22, 10);
-                        
+        Tiempo1 tiempo=new Tiempo1();
+        tiempo.hora = 7;
+        tiempo.minuto=15;
+        tiempo.segundo=30;
     }
 }

@@ -11,9 +11,9 @@ import java.text.DecimalFormat;
  */
 //Declaración de la clase Tiempo1 que mantiene la hora en formato de 24 horas.
 public class Tiempo1 extends Object{
-    private int hora; //0 - 23
-    private int minuto;  //0 - 59
-    private int segundo; //0 - 59
+    public int hora; //0 - 23
+    public int minuto;  //0 - 59
+    public int segundo; //0 - 59
     
     //El constructor de Tiempo inicial cada variable de instancia en cero,
     // se asegura de que cada objeto Tiempo es un estadoconsistente 
